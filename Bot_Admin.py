@@ -14,7 +14,7 @@ from aiogram.dispatcher.filters.state import State, StatesGroup
 
 loop = asyncio.get_event_loop()
 kategorii_calback=CallbackData('item_name')
-bot = Bot(token="5474681575:AAG98rf55TIJhH7-wnwm8zvdom2riucCUrc")
+bot = Bot(token=token)
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
 logging.basicConfig(level=logging.INFO)
